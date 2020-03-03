@@ -39,7 +39,7 @@ function afterScreen(){
            },
            success:function(result,status){
                for(let i = 0; i < 4; i++){
-                   $("#likes").append("Likes: " + result.hits[i].likes);
+                   $("#likes").append("Likes: " + result.hits[i].likes + "      ");
                    $("#imgContainer").append('<img src="' + result.hits[i].previewURL + '"/>');
                }
            }
