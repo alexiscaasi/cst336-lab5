@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    font-family: Optima;
+}
+form {
+    font-family: Optima;
+    font-size: 1em;
+}
+h1 {
+    font-family: Optima;
+    font-size: 2.5em;
+}
+input[type = text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#likes {
+    font-size: 1em;
+}
+img {
+    margin-left: 50px;
+}
